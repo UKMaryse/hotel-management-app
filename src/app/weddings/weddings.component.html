@@ -1,0 +1,152 @@
+<!-- <div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="/assets/images/meets2.jpg" style="width:100%">
+    <div class="text">Wedding Banquet</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="/assets/images/meets3.jpg" style="width:100%">
+    <div class="text">Weddings &amp; Honeymoon</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="/assets/images/meets4.jpg" style="width:100%">
+    <div class="text">Honeymoon &amp; Special Occasion</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {
+      slideIndex = 1;
+    }
+    if (n < 1) {
+      slideIndex = slides.length;
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+  }
+  </script> -->
+
+
+  <div class="container">
+    <h2>WEDDINGS &amp; HONEYMOONS</h2>
+    <h4>WEDDINGS IN KIGALI</h4>
+    <p>Here at Kigali Serena Hotel in Rwanda, we treasure each wedding we host as if it were our own and
+      provide gracious hospitality and 5-star settings to ensure an unforgettable celebration of family
+      and friends. From the earliest planning stages until the final guests have departed, we are committed
+      to designing fully customized gatherings that exceed all expectations.</p>
+    <p>We offer intimate venues for small family affairs and larger spaces that can accommodate grand
+      gala receptions of up to 800 guests. With its own gracious entrance, marble lobby and selection
+      of function rooms, our stand-alone events center also features a full stage, outdoor terraces, and landscaped
+      grounds and sparkling fountains to create a unique and unforgettable backdrop for your wedding day.</p>
+    <button style="background: rgb(95, 47, 47); font-family: 'Times New Roman', Times, serif; text-transform: uppercase;
+    height: 50px; width: 180px;" routerlink="">Request For Proposal</button>
+  </div>
+  <body>
+      <div class="honey">
+          <h3>HONEYMOONS</h3>
+          <p>Your wedding has come and gone and you are on your way to creating your life together. But first,
+          why not relax, de-stress from wedding planning and reflect on your special day? Just the two
+          of you. A honeymoon at the Kigali Serena Hotel has it all: unrivalled elegance and comfort, a
+          delightful pool deck and poolside café, all the services of the Maisha Health Club, and the option
+          of dinner for two in our beautifully presented Milima Restaurant.</p>
+          <p>Additional romantic possibilities include:</p>
+          <ul>
+              <li>Candlelit dinner for two on your private balcony</li>
+              <li>Surprise dinner or cocktails for two on a pool terrace</li>
+              <li>Champagne sundowners on the pool deck</li>
+              <li>‘His and Hers’ massage in your room</li>
+              <li>Extension weekends to our exclusive Natia Hotel which lies on the shores of Africa’s sixth largest inland lake and within easy reach of the Volcanoes National Park, home to Rwanda’s world-famous mountain gorillas.
+              </li>
+          </ul>
+      </div>
+
+      <div class="honey">
+          <h3>BALLROOM</h3>
+          <p>Offering flexible space for up to 800 wedding attendees, the Ballroom can also be set
+          up to accommodate up to 700 for a cocktail-style reception.</p>
+      </div>
+
+      <div class="honey">
+          <h3>AUDITORIUM</h3>
+          <p>Offering flexible space for up to 500 attendees, the Ballroom can also accommodate 100 for a
+          cocktail reception.</p>
+      </div>
+
+      <div class="honey">
+          <h3>Lake MEETING ROOM</h3>
+          <p>The smaller Meeting Rooms can accommodate up to 50 for an intimate cocktail reception or wedding ceremony.</p>
+      </div>
+
+      <div class="honey">
+          <h3 >WEDDING SERVICES</h3>
+          <ul>
+              <li>Outdoor venues on the terraces, around the pool or in the grounds</li>
+              <li>Selection of flexible indoor reception areas</li>
+              <li>Full-service wedding planning</li>
+              <li>Customizable catering and banquet services</li>
+              <li>Entertainment including live bands, disco or traditional “intore” dancers</li>
+              <li>Flowers and other wedding decorations</li>
+              <li>Private entrance and reception room</li>
+              <li>Extensive private parking</li>
+              <li>Special accommodation packages for family and friends</li>
+              <li>Romantic honeymoon suites</li>
+          </ul>
+      </div>
+
+
+
+
+  <!-- <button (click)="toggle()" id="bt">
+    {{buttonName}}
+</button>
+
+<ng-container *ngIf="show">
+    <div style="margin: 0 auto;text-align: left;">
+        <div>
+            <label>Name:</label>
+            <div><input id="tbname" name="yourname" /></div>
+        </div>
+        <div>
+            <label>Email Address:</label>
+            <div><input name="email" id="email" /></div></div>
+        <div>
+            <label>Additional Information (optional):</label>
+            <div><textarea rows="5" cols="46"></textarea></div>
+        </div>
+    </div>
+</ng-container> -->

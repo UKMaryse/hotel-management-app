@@ -1,0 +1,77 @@
+
+body {
+  background-size: cover;
+}
+.container {
+  background-color: rgba(148, 148, 148, 0.8);
+  padding: 150px;
+  text-align: center;
+}
+
+.container h2{
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h4{
+  text-transform: uppercase;
+  font-size: 23px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(37, 9, 9);
+}
+
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+ p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+li{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+}
+  .honey {
+  border: 1px solid #ccc;
+  margin-bottom: 40px;
+  }
+
+  .honey h3 {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  }
+
+  .honey h3::after {
+  content: "\25BC"; /* Down arrow */
+  font-size: 16px;
+  color: #0f0e0e;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+
+  }
+
+  .honey.collapsed h3::after {
+  transform: translateY(-50%) rotate(-180deg);
+  }
+
+  .honey p {
+  display: none;
+  margin: 0;
+  padding: 10px;
+  }
+
+  .honey.collapsed p {
+  display: block;
+  }
+
