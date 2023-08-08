@@ -54,6 +54,7 @@ import { EventsComponent } from './events/events.component';
 import { MeetingsComponent } from './meetings/meetings.component';
 import { CelebrationComponent } from './celebration/celebration.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -105,7 +106,8 @@ import { ContactComponent } from './contact/contact.component';
     EventsComponent,
     MeetingsComponent,
     CelebrationComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
 
   ],
   imports: [
