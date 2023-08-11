@@ -37,7 +37,15 @@ import { ContactComponent } from './contact/contact.component';
 const routes: Routes = [
   {path:'', redirectTo:'home', pathMatch:'full'},
   {path:'accomodation', component: AccomodationComponent},
-  {path:'food-and-beverage', component: FoodAndBeverageComponent},
+  {
+    path: 'food-and-beverage',
+    component: FoodAndBeverageComponent,
+    children: [
+      { path: '', redirectTo: 'food-and-beverage', pathMatch: 'full' },
+      { path: 'bars', component: BarsComponent },
+      { path: 'restaurants', component: RestaurantComponent },
+    ],
+  },
  {path:'foodandbeverage', redirectTo:'food-and-beverage'},
   {path:'lifestyle', component: LifestyleComponent},
   {path:'weddings', component: WeddingsComponent},
